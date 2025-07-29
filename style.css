@@ -1,0 +1,59 @@
+body{
+    background-color: #D5EBF8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+div.khung{
+    border-radius: 6px;
+    background-color:white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+}
+input{
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ten-matKhau{
+    margin-bottom: 16px;
+}
+button{
+    background-color: #007BFD;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dangKy{
+    font-size: 15px;
+}
+.dangKy a{
+    color: #007BFD;
+    text-decoration: none;
+}
+.dangKy a:hover {
+    text-decoration: underline;
+}
